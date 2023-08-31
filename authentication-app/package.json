@@ -1,0 +1,20 @@
+{
+  "name": "authentication-app",
+  "version": "1.0.0",
+  "description": "authentication app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./Public/index.html",
+    "build": "parcel build ./Public/index.html"
+  },
+  "author": "karthik raikar",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/apple-bg.jpg");
+  width: 100vw;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.App-bg {
+  background-color: #222;
+  width: 100vw;
+  position: absolute;
+  top: 50%;
+  height: 50vh;
+  position: fixed;
+}
